@@ -120,19 +120,3 @@ locale.getpreferredencoding = getpreferredencoding
 #     )
 #   )
 # )
-
-/usr/local/lib/python3.10/dist-packages/accelerate/accelerator.py:494: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
-  self.scaler = torch.cuda.amp.GradScaler(**kwargs)
-You are adding a <class 'transformers.integrations.integration_utils.TensorBoardCallback'> to the callbacks of this Trainer, but there is already one. The currentlist of callbacks is
-:DefaultFlowCallback
-TensorBoardCallback
-WandbCallback
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-wandb: (1) Create a W&B account
-wandb: (2) Use an existing W&B account
-wandb: (3) Don't visualize my results
-wandb: Enter your choice: 3
-wandb: You chose "Don't visualize my results"
-wandb: Tracking run with wandb version 0.18.5
-wandb: W&B syncing is set to `offline` in this directory.
-wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
